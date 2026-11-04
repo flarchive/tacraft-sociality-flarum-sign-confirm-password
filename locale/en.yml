@@ -1,0 +1,22 @@
+tacraft-sociality-sign-confirm-password:
+  forum:
+    field_placeholder: Confirm Password
+    password_mismatch: The two passwords do not match.
+    strength_weak: Weak
+    strength_medium: Could be stronger
+    strength_strong: Strong
+    show_password: Show password
+    hide_password: Hide password
+  admin:
+    weak_color_label: Weak password color
+    weak_color_help: Color used by the strength meter and input border while the password is weak (hex, e.g. #e5484d).
+    medium_color_label: Medium password color
+    medium_color_help: Color used while the password strength is medium.
+    strong_color_label: Strong password color
+    strong_color_help: Color used while the password strength is strong.
+    input_color_label: Tint the typed text with the strength color
+    input_color_help: Colors the text inside the password field while the password is hidden.
+    input_border_label: Tint the input border with the strength color
+    input_border_help: Colors the password field border to match the strength color.
+    toggle_label: Show password button
+    toggle_help: Adds an eye button to the password field that switches between plain and hidden text.

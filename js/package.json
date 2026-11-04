@@ -1,0 +1,17 @@
+{
+  "name": "@tacraft-sociality/flarum-sign-confirm-password",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "flarum-tsconfig": "^2.0.0",
+    "flarum-webpack-config": "^3.1.0",
+    "typescript": "^5.9.3",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^7.2.3"
+  },
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "check-typings": "tsc --noEmit"
+  }
+}

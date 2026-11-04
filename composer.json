@@ -1,0 +1,38 @@
+{
+    "name": "tacraft-sociality/flarum-sign-confirm-password",
+    "description": "Adds a confirm password field to the sign up modal.",
+    "keywords": [
+        "flarum",
+        "confirm",
+        "password",
+        "signup"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tacraft Sociality",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "flarum/core": "^2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TacraftSociality\\SignConfirmPassword\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Sign Confirm Password",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-check-double",
+                "backgroundColor": "#2896bf",
+                "color": "#fff"
+            }
+        }
+    }
+}

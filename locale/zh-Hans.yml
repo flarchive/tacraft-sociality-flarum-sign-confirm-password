@@ -1,0 +1,22 @@
+tacraft-sociality-sign-confirm-password:
+  forum:
+    field_placeholder: 确认密码
+    password_mismatch: 两次输入的密码不一致。
+    strength_weak: 弱
+    strength_medium: 一般
+    strength_strong: 强
+    show_password: 显示密码
+    hide_password: 隐藏密码
+  admin:
+    weak_color_label: 弱密码颜色
+    weak_color_help: 密码强度为「弱」时，强度条与输入框边框使用的颜色（十六进制，例如 #e5484d）。
+    medium_color_label: 中等密码颜色
+    medium_color_help: 密码强度为「一般」时使用的颜色。
+    strong_color_label: 强密码颜色
+    strong_color_help: 密码强度为「强」时使用的颜色。
+    input_color_label: 输入文字随强度变色
+    input_color_help: 密码处于隐藏状态时，输入框里的文字颜色随密码强度变化。
+    input_border_label: 输入框边框随强度变色
+    input_border_help: 输入框边框颜色随密码强度变化。
+    toggle_label: 显示密码按钮
+    toggle_help: 在密码框右侧加一个眼睛按钮，可切换明文 / 密文显示。

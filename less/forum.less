@@ -1,0 +1,50 @@
+.SignConfirmPassword-field {
+  position: relative;
+
+  .FormControl {
+    padding-right: 44px;
+  }
+
+  .SignConfirmPassword-reveal {
+    position: absolute;
+    top: 38px;
+    right: 10px;
+    width: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: var(--muted-color);
+  }
+}
+
+.StrengthIndicator {
+  width: 100%;
+  margin-top: 10px;
+
+  &-pills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 5px;
+
+    .StrengthPill {
+      width: 31%;
+      height: 5px;
+      border-radius: 3px;
+      background-color: var(--control-bg);
+      transition: background-color 0.2s ease;
+    }
+  }
+
+  &-label {
+    width: 100%;
+    margin-top: 6px;
+
+    span {
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+  }
+}
